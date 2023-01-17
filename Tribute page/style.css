@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+figure{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgb(0, 47, 255);
+    margin-top: 0%;
+    padding: 2% 0 5%;
+}
+figcaption{
+    font-size: 0.9em;
+}
+a{
+    color: red;
+}
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    padding: 1% 0 1%;
+    
+    
+}
+.tribute-page header{
+    background-color: blue;
+    letter-spacing: 1px;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.tribute-page main{
+    color:black;
+    padding: 1rem;
+}
+ .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-section{
+    max-width: 900px;
+    line-height: 25px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+img{
+    position: relative;
+}
+@media(min-width:400px){
+    .tribute-page main{
+        /* height: 85vh; */
+    }
+    
+        
+}
+@media(max-width:768px){
+   .tribute-page main .main-section{
+        max-width: 500px;
+    }
+}
+@media(max-width:480px){
+           
+            figure img{
+                width: 100%;
+            }
+}
+
+
